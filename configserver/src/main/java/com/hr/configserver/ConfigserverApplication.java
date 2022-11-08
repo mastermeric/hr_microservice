@@ -3,7 +3,7 @@ package com.hr.configserver;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication  // Auto Config isini yapar..
 public class ConfigserverApplication {
 
 	public static void main(String[] args) {

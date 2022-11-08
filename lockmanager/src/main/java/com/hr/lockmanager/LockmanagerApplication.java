@@ -2,8 +2,11 @@ package com.hr.lockmanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.data.redis.connection.RedisConnectionFactory;
+import org.springframework.integration.redis.util.RedisLockRegistry;
 
-@SpringBootApplication
+@SpringBootApplication  // Auto Config isini yapar..
 public class LockmanagerApplication {
 
 	public static void main(String[] args) {
